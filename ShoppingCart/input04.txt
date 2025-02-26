@@ -1,0 +1,1 @@
+ApplyDiscountApplyDiscountApplyDiscountAdd Item Camera, 812, 1DisplayCartRemove Item HeadphonesAdd Item Headphones, 707, 2ApplyDiscountAdd Item Mouse, 512, 4DisplayCartDisplayCartApplyDiscountDisplayCartRemove Item HeadphonesRemove Item LaptopDisplayCartRemove Item MonitorDisplayCart

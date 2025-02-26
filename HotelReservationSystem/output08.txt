@@ -1,0 +1,1 @@
+Alice reserved Room 1Bob reserved Room 2Charlie reserved Room 3David reserved Room 4Eve reserved Room 5Cancelled reservations for BobCancelled reservations for DavidFrank reserved Room 2Grace reserved Room 4Current Reservations:Alice - Room 1Frank - Room 2Charlie - Room 3Grace - Room 4Eve - Room 5Total Reservations: 5Available Rooms: 0

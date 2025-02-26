@@ -1,0 +1,1 @@
+initialize -4,-5add -5,-4subtract -6,-7multiply -8,0divide -1,-2modulus -3,-7conjugate -4,-4add -5,-2divide -8,-9modulus -2,-2exit

@@ -1,0 +1,1 @@
+Alice reserved Room 1Bob reserved Room 2Current Reservations:Alice - Room 1Bob - Room 2Total Reservations: 2Available Rooms: 3

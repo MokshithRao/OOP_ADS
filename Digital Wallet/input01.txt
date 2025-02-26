@@ -1,0 +1,1 @@
+Method: initialize_walletInputs: NoneMethod: add_fundsInputs: amount=0Method: make_paymentInputs: amount=50Method: view_transaction_historyInputs: None

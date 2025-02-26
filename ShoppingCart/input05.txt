@@ -1,0 +1,1 @@
+ApplyDiscountApplyDiscountDisplayCartApplyDiscountRemove Item PrinterApplyDiscountAdd Item Headphones, 707, 2Remove Item KeyboardAdd Item Monitor, 338, 4Remove Item PrinterDisplayCartAdd Item Printer, 589, 3Add Item Tablet, 717, 5DisplayCartRemove Item MonitorApplyDiscount
