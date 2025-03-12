@@ -1,1 +1,6 @@
-Method: initialize_walletInputs: NoneMethod: make_paymentInputs: amount=100Method: display_balanceInputs: None
+Method: initialize_wallet
+Inputs: None
+Method: make_payment
+Inputs: amount=100
+Method: display_balance
+Inputs: None
