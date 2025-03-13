@@ -165,3 +165,66 @@ class FullQueueException(Exception):
     def __init__(self, message):
         self.message = message
         super().__init__(self.message)
+
+
+
+
+class Stack:
+    def __init__(self, capacity=10):
+        self.queue1 = MyQueue(capacity)
+        self.queue2 = MyQueue(capacity)
+        self.capacity = capacity
+        self.size = 0
+
+    def empty(self):
+        return self.size == 0
+
+    def push(self, item):
+        if self.size == self.capacity:
+            raise FullQueueException("Stack is Full")
+        self.queue1.add(item)
+        self.size += 1
+        return item
+
+    def pop(self):
+        if self.empty():
+            raise IndexError("Empty Stack")
+        
+        while self.queue1.size > 1:
+            self.queue2.add(self.queue1.poll())
+        
+        popped_item = self.queue1.poll()
+        self.size -= 1
+        
+        self.queue1, self.queue2 = self.queue2, self.queue1
+        return popped_item
+
+    def peek(self):
+        if self.empty():
+            raise IndexError("Empty Stack")
+        
+        while self.queue1.size > 1:
+            self.queue2.add(self.queue1.poll())
+        
+        top_item = self.queue1.peek()
+        self.queue2.add(self.queue1.poll())
+        
+        self.queue1, self.queue2 = self.queue2, self.queue1
+        return top_item
+
+    def search(self, item):
+        position = -1
+        index = self.queue1.size
+        
+        current = self.queue1.queue.head
+        while current:
+            if current.data == item:
+                position = index
+            index -= 1
+            current = current.next
+        
+        return position
+
+    def __str__(self):
+        return f"{self.queue1}"
+
