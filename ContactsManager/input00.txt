@@ -1,1 +1,8 @@
-add deepak 9959567052 deepak@gmail.comdisplayadd ajay 98765434567 vhgsgcshj@gmail.comsearch deepakdisplaydelete deepakdisplayend
+add deepak 9959567052 deepak@gmail.com
+display
+add ajay 98765434567 vhgsgcshj@gmail.com
+search deepak
+display
+delete deepak
+display
+end
