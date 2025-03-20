@@ -1,1 +1,11 @@
-initialize 3,4add 3,4subtract 5,6multiply 2,3divide 5,6modulus 7,24conjugate -3,4add -3,4divide 3,4modulus 8,0exit
+initialize 3,4
+add 3,4
+subtract 5,6
+multiply 2,3
+divide 5,6
+modulus 7,24
+conjugate -3,4
+add -3,4
+divide 3,4
+modulus 8,0
+exit

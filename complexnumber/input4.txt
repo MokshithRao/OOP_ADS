@@ -1,1 +1,11 @@
-initialize 0,0add 0,0subtract 0,0multiply 0,0divide 0,1modulus 0,0conjugate 0,0add 0,3divide 1,0modulus 0,6exit
+initialize 0,0
+add 0,0
+subtract 0,0
+multiply 0,0
+divide 0,1
+modulus 0,0
+conjugate 0,0
+add 0,3
+divide 1,0
+modulus 0,6
+exit

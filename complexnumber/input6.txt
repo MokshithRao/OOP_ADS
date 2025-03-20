@@ -1,1 +1,11 @@
-initialize 3,0add 2,0subtract 1,0multiply 0,0divide 0,1modulus 3,0conjugate 0,6add 5,0divide 6,0modulus 9,0exit
+initialize 3,0
+add 2,0
+subtract 1,0
+multiply 0,0
+divide 0,1
+modulus 3,0
+conjugate 0,6
+add 5,0
+divide 6,0
+modulus 9,0
+exit
