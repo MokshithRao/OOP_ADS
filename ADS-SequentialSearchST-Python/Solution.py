@@ -28,23 +28,6 @@ class SequentialSearchST:
         self.size_ += 1
 
     
-    # def put(self, key, value):
-    #     current = self.head
-    #     while current:
-    #         if current.key == key:
-    #             current.value = value
-    #             return
-    #         current = current.next
-
-    #     new_node = Node(key, value)
-    #     if self.head is None:
-    #         self.head = new_node
-    #     else:
-    #         current = self.head
-    #         while current.next:
-    #             current = current.next
-    #         current.next = new_node
-    #     self.size_ += 1
 
     def get(self, key):
         current = self.head
